@@ -1,0 +1,61 @@
+Main Program Example
+==========================================
+       BANK ACCOUNT MANAGEMENT SYSTEM
+==========================================
+Maximum Balance: ₹5 Crore
+Daily Transaction Limit: 200
+==========================================
+
+1. Deposit Money
+2. Withdraw Money
+3. Check Balance
+4. Transaction History
+5. Account Status
+6. Exit
+
+Enter your choice: 1
+
+Enter deposit amount: ₹50000
+
+Deposit successful.
+Transaction No: 1
+Amount: ₹ 50000
+Date: 09-08-2026
+Time: 01:30:15 PM
+Current Balance: ₹ 50000
+Withdrawal Example
+Enter your choice: 2
+
+Enter withdrawal amount: ₹10000
+
+Withdrawal successful.
+Transaction No: 2
+Amount: ₹ 10000
+Date: 09-08-2026
+Time: 01:45:22 PM
+Current Balance: ₹ 40000
+Transaction History
+==============================================================
+                  TRANSACTION HISTORY
+==============================================================
+No. | Type       | Amount       | Date       | Time       | Balance
+--------------------------------------------------------------
+1 | Deposit | ₹ 50000 | 09-08-2026 | 01:30:15 PM | ₹ 50000
+2 | Withdrawal | ₹ 10000 | 09-08-2026 | 01:45:22 PM | ₹ 40000
+==============================================================
+Testbench Output
+==========================================
+       BANK ACCOUNT MANAGEMENT TESTBENCH
+==========================================
+Test 1: ₹5 Crore Maximum Balance - PASS
+Test 2: Balance Limit Protection - PASS
+Test 3: 200 Transactions Allowed - PASS
+Test 4: 201st Transaction Rejected - PASS
+Test 5: Sixth Violation Detected - PASS
+Test 6: Account Block - PASS
+Test 7: Transaction Date Recording - PASS
+Test 8: Transaction Time Recording - PASS
+Test 9: Transaction History - PASS
+==========================================
+All tests completed successfully.
+==========================================
